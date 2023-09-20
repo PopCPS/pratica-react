@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+.botao{
+    border-width: 0;
+    padding: 1.5rem;
+    background-color: #ea1d2c;
+    border-radius: 50vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+}
+.form{
+    display: grid;
+    grid-template-columns: 20vw 15vw;
+    grid-template-rows: 75px 75px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0.5rem 1rem ;
+}
+.input-text-box{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    outline: none;
+}
+.input-text-box :focus{
+    outline: none;
+}
+.input-error-message{
+    visibility: hidden;
+}
+.input-error-shown{
+    visibility: visible;
+}
