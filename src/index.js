@@ -7,7 +7,7 @@ import './index.css'
 const MyApp = () => {
     return (
         <div className="App">
-            <Map apiKey="AIzaSyBD6i3mFT2s3H5SA8KUCjlxRpchgJ2KA7g" />
+            <Map apiKey="" />
         </div>
     )
 }
@@ -19,7 +19,7 @@ function MyMarker() {
 const Map = () => {
     return (
         <Map
-          apiKey="AIzaSyBD6i3mFT2s3H5SA8KUCjlxRpchgJ2KA7g"
+          apiKey=""
           defaultZoom={8}
           defaultCenter={{ lat: 37.7749, lng: -122.4194 }}
           defaultOptions={{ disableDefaultUI: true }}
